@@ -24,7 +24,12 @@ Category = Any User Defined String
   * name : text 
   * description : text 
   * [image] : bytes \* 
-  * allergens : text 
+  * DietaryTags[] 
+    * meat : boolean
+    * dairy : boolean
+    * nuts : boolean
+    * gluten" : boolean
+    * soy : boolean
   * [spice] : text \* 
   * price : float
 
